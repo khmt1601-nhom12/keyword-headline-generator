@@ -1,0 +1,51 @@
+RUN_NAME = "run_01_lr5e5"
+
+LEARNING_RATE = 5e-5
+BATCH_SIZE = 8
+EPOCHS = 3
+
+KẾT QUẢ ROUGE
+
+rouge1    : 0.5409
+rouge2    : 0.2950
+rougeL    : 0.3475
+rougeLsum : 0.3475
+============================================================
+RUN_NAME = "run_02_lr3e5"
+
+LEARNING_RATE = 3e-5
+BATCH_SIZE = 8
+EPOCHS = 3
+
+KẾT QUẢ ROUGE
+
+rouge1    : 0.5368
+rouge2    : 0.2886
+rougeL    : 0.3426
+rougeLsum : 0.3426
+============================================================
+RUN_NAME = "run_03_lr1e4"
+
+LEARNING_RATE = 1e-4
+BATCH_SIZE = 8
+EPOCHS = 3
+
+KẾT QUẢ ROUGE
+
+rouge1    : 0.5454
+rouge2    : 0.3049
+rougeL    : 0.3527
+rougeLsum : 0.3528
+============================================================
+RUN_NAME = "run_04_batch4_epoch5"
+
+LEARNING_RATE = 5e-5
+BATCH_SIZE = 4
+EPOCHS = 5
+KẾT QUẢ ROUGE
+============================================================
+rouge1    : 0.5502
+rouge2    : 0.3141
+rougeL    : 0.3603
+rougeLsum : 0.3603
+============================================================

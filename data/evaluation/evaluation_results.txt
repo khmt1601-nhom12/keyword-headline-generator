@@ -1,0 +1,17 @@
+============================================
+Model: VietAI/vit5-base (fine-tuned)
+
+Dataset:
+Train: 24721 samples
+Test : 3090 samples
+
+ROUGE Results
+--------------------------------------------
+ROUGE-1   : 0.5418
+ROUGE-2   : 0.2910
+ROUGE-L   : 0.3475
+ROUGE-Lsum: 0.3475
+
+Evaluate time:
+2026-06-22 14:32
+============================================

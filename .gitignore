@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Models
+models/
+
+# Weights & Biases
+wandb/
+
+# ONNX
+*.onnx
+
+# PyTorch
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs
+logs/
+outputs/
