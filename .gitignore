@@ -235,3 +235,6 @@ wandb/
 # Logs
 logs/
 outputs/
+
+data/cleaned/
+data/processed/

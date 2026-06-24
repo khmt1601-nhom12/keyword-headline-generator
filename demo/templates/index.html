@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Keyword → Headline Generator</title>
+
+    <link rel="stylesheet"
+          href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ========================= -->
+    <!-- Header -->
+    <!-- ========================= -->
+
+    <div class="header">
+
+        <h1>
+            🤖 Keyword → Headline Generator
+        </h1>
+
+        <p>
+            Sinh tiêu đề báo tiếng Việt bằng AI (ViT5)
+        </p>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Input -->
+    <!-- ========================= -->
+
+    <div class="card">
+
+        <label>
+
+            Keywords
+
+        </label>
+
+        <textarea
+
+            id="keywords"
+
+            placeholder="Ví dụ:
+giá vàng hôm nay
+hà nội mưa lớn
+việt nam aff cup"
+
+        ></textarea>
+
+        <button
+            id="generateBtn">
+            <!--generateBtn-->
+
+            ✨ Sinh tiêu đề
+
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Loading -->
+    <!-- ========================= -->
+
+    <div
+
+        id="loading"
+
+        class="loading hidden"
+
+    >
+
+        <div class="spinner"></div>
+
+        <p>
+
+            Đang sinh tiêu đề...
+
+        </p>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Result -->
+    <!-- ========================= -->
+
+    <div
+
+        class="card result"
+
+        id="resultCard"
+
+    >
+
+        <h2>
+
+            📰 Headline
+
+        </h2>
+
+        <div
+
+            id="headline"
+
+            class="headline"
+
+        >
+
+            Chưa có kết quả.
+
+        </div>
+
+        <div class="action-row">
+
+            <button id="copyBtn">
+
+                📋 Copy
+
+            </button>
+
+            <button id="clearBtn">
+
+                🗑 Clear
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Statistics -->
+    <!-- ========================= -->
+
+    <div class="card">
+
+        <h2>
+
+            📊 Thống kê
+
+        </h2>
+
+        <div class="stats">
+
+            <div>
+
+                <span id="count">
+
+                    0
+
+                </span>
+
+                <small>
+
+                    Headlines
+
+                </small>
+
+            </div>
+
+            <div>
+
+                <span id="time">
+
+                    0 ms
+
+                </span>
+
+                <small>
+
+                    Thời gian
+
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- History -->
+    <!-- ========================= -->
+
+    <div class="card">
+
+        <h2>
+
+            🕒 History
+
+        </h2>
+
+        <ul id="history">
+
+        </ul>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Footer -->
+    <!-- ========================= -->
+
+    <div class="footer">
+
+        ViT5-base |
+        FastAPI |
+        HuggingFace |
+        ONNX
+
+    </div>
+
+</div>
+
+
+<!-- Toast -->
+
+<div
+
+    id="toast"
+
+    class="toast"
+
+>
+
+    Đã copy.
+
+</div>
+
+
+<script src="/static/js/app.js"></script>
+
+</body>
+
+</html>
+
