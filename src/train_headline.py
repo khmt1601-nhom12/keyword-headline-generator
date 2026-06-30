@@ -17,7 +17,7 @@ MODEL_NAME = "VietAI/vit5-base"
 # CHỈ CẦN SỬA PHẦN NÀY MỖI LẦN TRAIN
 # =====================================================
 
-RUN_NAME = "run_04_batch4_epoch5"
+RUN_NAME = "run_05_best_model   "
 
 LEARNING_RATE = 5e-5
 BATCH_SIZE = 4

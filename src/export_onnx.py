@@ -66,7 +66,7 @@ torch.onnx.export(
 
     export_params=True,
 
-    opset_version=14,
+    opset_version=18,
 
     do_constant_folding=True,
 

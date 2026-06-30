@@ -1,0 +1,4 @@
+Model,Size(MB),Inference(ms/sample)
+PyTorch,6043.64,94.386
+ONNX,430.65,66.159
+ONNX INT8,108.19,24.122
